@@ -53,6 +53,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             scoreManager.AddPoints(10);
         }
+
         if(Input.GetKey(KeyCode.F) && _timer == 0)
         {
             FireBullets();
